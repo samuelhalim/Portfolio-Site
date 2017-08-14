@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="description" content="Portfolio Website / Personal Website">
+    <meta name="author" content="Samuel Halim">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>Samuel Halim Portfolio Website</title>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-4 col-xs-4">
+                    <img class="img-responsive logo" src="images/logo.png" alt="Picture of Samuel Halim">
+                </div>
+                <div class="col-md-6 col-sm-8 col-xs-8 text-right text-uppercase">
+                    <h1>Samuel Halim</h1>
+                    <h3>Aspiring Software Engineer</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div style="width: 100%; height: 20px; margin-bottom: 15px; border-bottom: 2px solid #7d97ad; text-align: center;">
+                    <span style="font-size: 20px; background-color: white; padding: 0 10px;">
+                        <a href="#about" data-toggle="collapse" style="color: #2d3c49; text-decoration:none">&#8595; About Me &#8595;</a>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div id="about" class="collapse about">
+                    <p>Hi! My name is Samuel Halim and I'm a recent graduate from UC Berkeley major in Electrical Engineering and Computer Science. I am currently taking Udacity Full Stack Developer Nanodegree to deepen my knowledge about full stack.</p>
+                    <p>I enjoy watching anime(One Piece), tv series, trying new food, reading book, dance, and snowboarding during my free time.
+                    <p>Thank you for visiting my website and I hope you can learn more about me here! The link to my LinkedIn, Github, and email is provided on the icon on the very bottom. You can check my resume <a href="src/Resume - Samuel Halim.pdf">here</a>.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <picture id="banner">
+                        <source media="(min-width: 992px)" srcset="images/campus.jpg" />
+                        <source media="(min-width: 768px)" srcset="images/campus_medium.jpg" />
+                        <img class="img-responsive" src="images/campus_small.jpg" alt="Picture of Memorial Glade of UC Berkeley.">
+                    </picture>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img class="img-responsive img-project" src="images/movie_trailer_website.jpg" alt="A picture of movie trailer website look like.">
+                    <h4>Movie Trailer Website</h4>
+                    <a href="https://github.com/samuelhalim/movie-trailer-website">Github repo</a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img class="img-responsive img-project" src="images/wan_optimizer.jpg" alt="A picture of how WAN Optimizer works.">
+                    <h4>Wan Optimizer</h4>
+                    <a href="https://github.com/samuelhalim/Wan-Optimizer"> Github repo</a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img class="img-responsive img-project" src="images/ants.jpg" alt="A picture of Ants vs SomeBees gameplay look like.">
+                    <h4>Ants vs SomeBees</h4>
+                    <a href="https://github.com/samuelhalim/Ants-vs-SomeBees"> Github repo</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/shalim95/" style="text-decoration:none" class="fa fa-linkedin-square fa-2x"></a></li>
+          <li><a href="https://github.com/samuelhalim" style="text-decoration:none" class="fa fa-github fa-2x"></a></li>
+          <li><a href="mailto:samuel.halim@berkeley.edu" style="text-decoration:none" class="fa fa-envelope fa-2x"></a></li>
+        </ul>
+      </footer>
+</body>
+</html>
